@@ -25,7 +25,7 @@ int Year::Verify()
 {
 	int count = day;
 
-	if (LeapYear())
+	if (LeapYear());
 	{
 		MonthLib[1] = 29;
 	}
