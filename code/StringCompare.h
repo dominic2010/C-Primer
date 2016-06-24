@@ -8,10 +8,6 @@
 #ifndef CODE_SALESDATA_H_
 #define CODE_SALESDATA_H_
 
-class SalesData {
-public:
-	SalesData();
-	virtual ~SalesData();
-};
-
+void StringCompareValue();
+void StringCompareLength();
 #endif /* CODE_SALESDATA_H_ */
