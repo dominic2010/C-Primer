@@ -14,12 +14,14 @@ TEST(StringCompare,case1)
 {
 	StringCompare s1("huang");
 	std::string  s2 ="huang" ;
-	EXPECT_TRUE(s1.isEqual(s2));
+	EXPECT_TRUE(s1.compare(s2));
 }
 
 TEST(StringCompare,case2)
 {
 	StringCompare s1("huang");
 	std::string  s2 ="huang1" ;
-	EXPECT_FALSE(s1.isEqual(s2));
+	EXPECT_EQ(s2, s1.compare(s2));
 }
+
+
