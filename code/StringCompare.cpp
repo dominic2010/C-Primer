@@ -37,10 +37,3 @@ void StringCompareLength()
 
 }
 
-
-int main()
-{
-	StringCompareValue();
-	StringCompareLength();
-	return 0;
-}
