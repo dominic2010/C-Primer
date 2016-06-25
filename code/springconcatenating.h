@@ -9,7 +9,7 @@
 #define CODE_SPRINGCONCATENATING_H_
 
 void springconcatenating();
-
+void springconcatenating2();
 
 
 #endif /* CODE_SPRINGCONCATENATING_H_ */

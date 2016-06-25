@@ -13,17 +13,38 @@ void springconcatenating()
 {
 	string largeStr;
 	string str;
-	while(cin >> str)
+	while (cin >> str)
 	{
 		largeStr += str;
 	}
 
-	cout <<"the concatenating string is "<< largeStr<<endl;
+	cout << "the concatenating string is " << largeStr << endl;
 }
 
+void springconcatenating2()
+{
+	string largeStr;
+	string str;
+	while (cin >> str)
+	{
+		if (largeStr.empty())
+		{
+			largeStr += str;
+		}
+		else
+		{
+			largeStr += ' ';
+			largeStr += str;
+
+		}
+
+	}
+
+	cout << "the concatenating string is " << largeStr << endl;
+}
 
 int main()
 {
-	springconcatenating();
+	springconcatenating2();
 
 }

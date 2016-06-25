@@ -37,3 +37,19 @@ void StringCompareLength()
 
 }
 
+
+
+void StringCompareLength2()
+{
+	string str1, str2;
+	cin >> str1;
+	cin >> str2;
+	if (str1.size() == str2.size())
+	{
+		cout << "str1 has same lentgh with  str2 " << endl;
+	}
+	else if (str1.size() == str2.size())
+	{
+		cout << "str2 is longer" << endl;
+	}
+
