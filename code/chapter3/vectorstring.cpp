@@ -20,8 +20,6 @@ int main()
 	{
 		vectstring.push_back(word);
 	}
-	for (auto j : vectstring)
-		cout << j <<endl;
 	return 0;
 }
 
